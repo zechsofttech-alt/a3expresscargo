@@ -244,6 +244,8 @@ const Home = () => {
           interval={5000}
           emulateTouch
           swipeable
+          preventMovementUntilSwipeScrollTolerance={true}
+          swipeScrollTolerance={50}
           onChange={setActiveSlide}
           className="h-full"
         >
