@@ -293,32 +293,30 @@ const Home = () => {
                       <span className="text-blue-400">{slide.heading[1]}</span>
                     </h1>
 
-                    {/* Subtitle */}
+                    {/* Subtitle — centered on mobile */}
                     <p className="text-slate-200 text-base md:text-lg leading-relaxed mb-8 md:mb-10 max-w-xl text-center md:text-left">
                       {slide.sub}
                     </p>
 
-                    {/* Buttons — stacked full-width on mobile, inline on desktop */}
-                    <div className="flex flex-col gap-3 md:flex-row md:flex-wrap md:gap-4">
+                    {/* Buttons — auto-width, stacked on mobile */}
+                    <div className="flex flex-col items-start gap-3 md:flex-row md:flex-wrap md:gap-4">
                       <button
                         onClick={(e) => {
                           e.stopPropagation();
                           scrollTo(productsRef);
                         }}
-                        className="inline-flex items-center justify-between md:justify-center gap-2 w-full md:w-auto px-7 py-4 md:py-3.5 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-full transition-all duration-200 hover:shadow-lg hover:shadow-blue-600/30"
+                        className="inline-flex items-center gap-2 px-7 py-4 md:py-3.5 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-full transition-all duration-200 hover:shadow-lg hover:shadow-blue-600/30"
                       >
-                        <span>Explore Products</span>
-                        <ChevronRight className="w-5 h-5 md:w-4 md:h-4" />
+                        Explore Products <ChevronRight className="w-4 h-4" />
                       </button>
                       <button
                         onClick={(e) => {
                           e.stopPropagation();
                           navigate("/contact");
                         }}
-                        className="inline-flex items-center justify-between md:justify-center gap-2 w-full md:w-auto px-7 py-4 md:py-3.5 bg-slate-800/80 hover:bg-slate-700/80 backdrop-blur-sm text-white text-sm font-bold rounded-full border border-white/15 transition-all duration-200"
+                        className="inline-flex items-center gap-2 px-7 py-4 md:py-3.5 bg-slate-800/80 hover:bg-slate-700/80 backdrop-blur-sm text-white text-sm font-bold rounded-full border border-white/15 transition-all duration-200"
                       >
-                        <span>Get In Touch</span>
-                        <ArrowRight className="w-5 h-5 md:w-4 md:h-4" />
+                        Get In Touch <ArrowRight className="w-4 h-4" />
                       </button>
                     </div>
                   </div>
