@@ -233,7 +233,7 @@ const Home = () => {
       {/* ══════════════════════════════════════════
           HERO — Full-viewport carousel
       ══════════════════════════════════════════ */}
-      <section className="relative w-full h-screen overflow-hidden">
+      <section className="relative w-full h-screen h-[100svh] overflow-hidden">
         <Carousel
           showIndicators
           showStatus={false}
@@ -252,7 +252,7 @@ const Home = () => {
           {SLIDES.map((slide, i) => (
             <div
               key={i}
-              className="relative h-screen w-full"
+              className="relative h-screen h-[100svh] w-full"
               onClick={() => navigate("/products")}
             >
               {/* Desktop Background Image */}
@@ -272,7 +272,7 @@ const Home = () => {
               <div className="absolute inset-0 bg-gradient-to-b from-slate-950/60 via-slate-950/55 to-slate-950/70 md:bg-none" />
               <div className="absolute inset-0 hidden md:block bg-gradient-to-r from-slate-950/85 via-slate-950/60 to-slate-950/20" />
 
-              <div className="absolute inset-0 flex items-center">
+              <div className="absolute inset-0 flex items-start md:items-center pt-28 md:pt-0">
                 <div className="max-w-7xl mx-auto w-full px-6 lg:px-12">
                   <div
                     className={`max-w-2xl transition-all duration-700 ${
@@ -286,8 +286,8 @@ const Home = () => {
                       — {slide.eyebrow}
                     </p>
 
-                    {/* Heading — bigger & bolder on mobile */}
-                    <h1 className="text-[2.6rem] leading-[1.1] md:text-7xl font-black text-white tracking-tight mb-5 md:mb-6">
+                    {/* Heading — bigger & bolder on mobile, center-aligned */}
+                    <h1 className="text-[2.6rem] leading-[1.1] md:text-7xl font-black text-white tracking-tight mb-5 md:mb-6 text-center md:text-left">
                       {slide.heading[0]}
                       <br />
                       <span className="text-blue-400">{slide.heading[1]}</span>
