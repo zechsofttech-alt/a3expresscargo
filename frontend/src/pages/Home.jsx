@@ -265,7 +265,10 @@ const Home = () => {
                 alt={slide.heading[0]}
                 className="block md:hidden absolute inset-0 w-full h-full object-cover scale-[1.03] transition-transform duration-[8000ms] hover:scale-100"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-slate-950/85 via-slate-950/60 to-slate-950/20" />
+
+              {/* Overlay — stronger on mobile for readability */}
+              <div className="absolute inset-0 bg-gradient-to-b from-slate-950/60 via-slate-950/55 to-slate-950/70 md:bg-none" />
+              <div className="absolute inset-0 hidden md:block bg-gradient-to-r from-slate-950/85 via-slate-950/60 to-slate-950/20" />
 
               <div className="absolute inset-0 flex items-center">
                 <div className="max-w-7xl mx-auto w-full px-6 lg:px-12">
@@ -276,41 +279,51 @@ const Home = () => {
                         : "opacity-0 translate-y-6"
                     }`}
                   >
-                    <p className="text-blue-400 text-xs font-semibold tracking-[0.2em] uppercase mb-5">
+                    {/* Eyebrow */}
+                    <p className="text-blue-400 text-xs font-semibold tracking-[0.2em] uppercase mb-4 md:mb-5">
                       — {slide.eyebrow}
                     </p>
-                    <h1 className="text-5xl md:text-7xl font-black text-white leading-[1.05] tracking-tight mb-6">
+
+                    {/* Heading — bigger & bolder on mobile */}
+                    <h1 className="text-[2.6rem] leading-[1.1] md:text-7xl font-black text-white tracking-tight mb-5 md:mb-6">
                       {slide.heading[0]}
                       <br />
                       <span className="text-blue-400">{slide.heading[1]}</span>
                     </h1>
-                    <p className="text-slate-300 text-lg leading-relaxed mb-10 max-w-xl">
+
+                    {/* Subtitle */}
+                    <p className="text-slate-200 text-base md:text-lg leading-relaxed mb-8 md:mb-10 max-w-xl text-center md:text-left">
                       {slide.sub}
                     </p>
-                    <div className="flex flex-wrap gap-4">
+
+                    {/* Buttons — stacked full-width on mobile, inline on desktop */}
+                    <div className="flex flex-col gap-3 md:flex-row md:flex-wrap md:gap-4">
                       <button
                         onClick={(e) => {
                           e.stopPropagation();
                           scrollTo(productsRef);
                         }}
-                        className="inline-flex items-center gap-2 px-7 py-3.5 bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold rounded-full transition-all duration-200 hover:shadow-lg hover:shadow-blue-600/30"
+                        className="inline-flex items-center justify-between md:justify-center gap-2 w-full md:w-auto px-7 py-4 md:py-3.5 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-full transition-all duration-200 hover:shadow-lg hover:shadow-blue-600/30"
                       >
-                        Explore Products <ChevronRight className="w-4 h-4" />
+                        <span>Explore Products</span>
+                        <ChevronRight className="w-5 h-5 md:w-4 md:h-4" />
                       </button>
                       <button
                         onClick={(e) => {
                           e.stopPropagation();
                           navigate("/contact");
                         }}
-                        className="inline-flex items-center gap-2 px-7 py-3.5 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white text-sm font-semibold rounded-full border border-white/20 transition-all duration-200"
+                        className="inline-flex items-center justify-between md:justify-center gap-2 w-full md:w-auto px-7 py-4 md:py-3.5 bg-slate-800/80 hover:bg-slate-700/80 backdrop-blur-sm text-white text-sm font-bold rounded-full border border-white/15 transition-all duration-200"
                       >
-                        Get In Touch <ArrowRight className="w-4 h-4" />
+                        <span>Get In Touch</span>
+                        <ArrowRight className="w-5 h-5 md:w-4 md:h-4" />
                       </button>
                     </div>
                   </div>
                 </div>
               </div>
 
+              {/* Progress bar */}
               <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-white/10">
                 <div
                   className="h-full bg-blue-500 transition-none"
@@ -324,7 +337,8 @@ const Home = () => {
           ))}
         </Carousel>
 
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-1 opacity-60">
+        {/* Scroll indicator — hidden on mobile (carousel dots serve that purpose) */}
+        <div className="hidden md:flex absolute bottom-10 left-1/2 -translate-x-1/2 z-20 flex-col items-center gap-1 opacity-60">
           <div className="w-px h-10 bg-white/40 animate-pulse" />
           <span className="text-white/50 text-[10px] tracking-widest uppercase">Scroll</span>
         </div>

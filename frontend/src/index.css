@@ -39,18 +39,52 @@ html {
   position: relative;
 }
 .carousel .control-dots {
-  bottom: 20px;
+  bottom: 28px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
 }
 .carousel .control-dots .dot {
   background-color: #ffffff !important;
-  opacity: 0.6;
+  opacity: 0.45;
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50% !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+  transition: all 0.3s ease;
 }
-.carousel .control-dots .dot.active {
-  background-color: #1e40af !important;
+.carousel .control-dots .dot.selected {
+  background-color: #3b82f6 !important;
   opacity: 1;
+  width: 24px !important;
+  border-radius: 4px !important;
 }
 .carousel .slide {
   transition: transform 0.5s ease !important;
+}
+
+/* SCROLL label below dots on mobile */
+.carousel-root::after {
+  content: 'SCROLL';
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  font-weight: 600;
+  pointer-events: none;
+  z-index: 20;
+}
+
+@media (min-width: 768px) {
+  .carousel-root::after {
+    display: none;
+  }
 }
 
 .container {
