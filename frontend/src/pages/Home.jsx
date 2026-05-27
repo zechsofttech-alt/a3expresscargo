@@ -233,7 +233,7 @@ const Home = () => {
       {/* ══════════════════════════════════════════
           HERO — Full-viewport carousel
       ══════════════════════════════════════════ */}
-      <section className="relative w-full h-screen h-[100svh] overflow-hidden">
+      <section className="relative w-full overflow-hidden" style={{ height: '100dvh', minHeight: '100svh' }}>
         <Carousel
           showIndicators
           showStatus={false}
@@ -252,7 +252,8 @@ const Home = () => {
           {SLIDES.map((slide, i) => (
             <div
               key={i}
-              className="relative h-screen h-[100svh] w-full"
+              className="relative w-full"
+              style={{ height: '100dvh', minHeight: '100svh' }}
               onClick={() => navigate("/products")}
             >
               {/* Desktop Background Image */}
@@ -268,11 +269,12 @@ const Home = () => {
                 className="block md:hidden absolute inset-0 w-full h-full object-cover scale-[1.03] transition-transform duration-[8000ms] hover:scale-100"
               />
 
-              {/* Overlay — stronger on mobile for readability */}
-              <div className="absolute inset-0 bg-gradient-to-b from-slate-950/60 via-slate-950/55 to-slate-950/70 md:bg-none" />
+              {/* Overlay */}
+              <div className="absolute inset-0 bg-gradient-to-b from-slate-950/65 via-slate-950/50 to-slate-950/65 md:bg-none" />
               <div className="absolute inset-0 hidden md:block bg-gradient-to-r from-slate-950/85 via-slate-950/60 to-slate-950/20" />
 
-              <div className="absolute inset-0 flex items-start md:items-center pt-28 md:pt-0">
+              {/* Content — vertically centered */}
+              <div className="absolute inset-0 flex items-center">
                 <div className="max-w-7xl mx-auto w-full px-6 lg:px-12">
                   <div
                     className={`max-w-2xl transition-all duration-700 ${
@@ -281,20 +283,20 @@ const Home = () => {
                         : "opacity-0 translate-y-6"
                     }`}
                   >
-                    {/* Eyebrow */}
+                    {/* Eyebrow — left aligned */}
                     <p className="text-blue-400 text-xs font-semibold tracking-[0.2em] uppercase mb-4 md:mb-5">
                       — {slide.eyebrow}
                     </p>
 
-                    {/* Heading — bigger & bolder on mobile, center-aligned */}
-                    <h1 className="text-[2.6rem] leading-[1.1] md:text-7xl font-black text-white tracking-tight mb-5 md:mb-6 text-center md:text-left">
+                    {/* Heading — large, left aligned */}
+                    <h1 className="text-5xl md:text-7xl font-black text-white leading-[1.05] tracking-tight mb-4 md:mb-6">
                       {slide.heading[0]}
                       <br />
                       <span className="text-blue-400">{slide.heading[1]}</span>
                     </h1>
 
-                    {/* Subtitle — centered on mobile */}
-                    <p className="text-slate-200 text-base md:text-lg leading-relaxed mb-8 md:mb-10 max-w-xl text-center md:text-left">
+                    {/* Subtitle — left aligned */}
+                    <p className="text-slate-200 text-base md:text-lg leading-relaxed mb-7 md:mb-10 max-w-xl">
                       {slide.sub}
                     </p>
 
@@ -337,9 +339,8 @@ const Home = () => {
           ))}
         </Carousel>
 
-        {/* Scroll indicator — hidden on mobile (carousel dots serve that purpose) */}
-        <div className="hidden md:flex absolute bottom-10 left-1/2 -translate-x-1/2 z-20 flex-col items-center gap-1 opacity-60">
-          <div className="w-px h-10 bg-white/40 animate-pulse" />
+        {/* SCROLL indicator — visible on both mobile and desktop */}
+        <div className="absolute bottom-14 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-1 opacity-60">
           <span className="text-white/50 text-[10px] tracking-widest uppercase">Scroll</span>
         </div>
       </section>
