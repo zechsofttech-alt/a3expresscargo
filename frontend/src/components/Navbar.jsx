@@ -66,14 +66,14 @@ const Navbar = () => {
             : "bg-slate-950 border-b border-white/[0.05] md:border-b-0 md:bg-gradient-to-b md:from-black/55 md:via-black/20 md:to-transparent"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-[70px] flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-[90px] md:h-[80px] flex items-center justify-between">
 
           {/* Logo */}
           <Link to="/" className="flex items-center shrink-0 group">
             <img
               src="/logo.png"
               alt="A3 Cargo"
-              className="h-16 md:h-11 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+              className="h-24 md:h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
             />
           </Link>
 
