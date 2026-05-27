@@ -1,0 +1,132 @@
+{
+  "herb_immortal": {
+    "doctors": [
+      {
+        "_id": "695bfcef201521ef2a56c7ee",
+        "id": "doctor-123",
+        "full_name": "Dr. John Doe",
+        "preferred_name": "John",
+        "email": "john.doe@example.com",
+        "phone": "+1 (555) 000-0000",
+        "specialization": "Ayurveda",
+        "experience_years": 15,
+        "consultation_fee": 500,
+        "about": "Experienced Ayurvedic practitioner...",
+        "service_locations": [],
+        "services_provided_to": [],
+        "treatment_platforms": [],
+        "languages": [],
+        "avatar_url": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop",
+        "status": "approved",
+        "onboarding_completed": false,
+        "rating": 4.8,
+        "review_count": 124,
+        "settings": {
+          "email_notifications": true,
+          "sms_notifications": false,
+          "booking_alerts": true,
+          "payment_alerts": true,
+          "chat_alerts": true,
+          "language": "English",
+          "timezone": "(GMT+05:30) India Standard Time",
+          "date_format": "DD/MM/YYYY"
+        },
+        "education": [],
+        "licenses": [],
+        "certificates": [],
+        "availability": [],
+        "created_at": "2026-01-05T18:03:27.595Z",
+        "__v": 0
+      }
+    ]
+  },
+  "mansara-db": {
+    "banners": [
+      {
+        "_id": "6953f7334e51265ddd477f61",
+        "page": "home",
+        "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80",
+        "title": "Summer Refresh",
+        "subtitle": "Cool down with our natural drink mixes",
+        "link": "/products?category=beverages",
+        "active": true,
+        "__v": 0,
+        "createdAt": "2025-12-30T16:00:51.926Z",
+        "updatedAt": "2025-12-30T16:00:51.926Z"
+      },
+      {
+        "_id": "6953f7334e51265ddd477f62",
+        "page": "products",
+        "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80",
+        "title": "Spices of India",
+        "subtitle": "Authentic blends for your kitchen",
+        "link": "/products?category=spices",
+        "active": true,
+        "__v": 0,
+        "createdAt": "2025-12-30T16:00:51.928Z",
+        "updatedAt": "2025-12-30T16:00:51.928Z"
+      }
+    ],
+    "heros": [
+      {
+        "_id": "6951fe1dd40f612d54e08c15",
+        "key": "home",
+        "__v": 0,
+        "createdAt": "2025-12-29T04:05:49.126Z",
+        "data": [
+          {
+            "id": "1",
+            "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80",
+            "title": "Pure Tradition, Modern Wellness",
+            "subtitle": "Experience the authentic taste of South India with our handcrafted, preservative-free foods.",
+            "ctaText": "Shop Now",
+            "ctaLink": "/products"
+          },
+          {
+            "id": "2",
+            "image": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80",
+            "title": "Nourish Your Family",
+            "subtitle": "Wholesome porridge mixes and essentials made with care for your loved ones.",
+            "ctaText": "View Products",
+            "ctaLink": "/products"
+          }
+        ],
+        "updatedAt": "2025-12-30T16:00:51.939Z"
+      },
+      {
+        "_id": "6951fe1dd40f612d54e08c16",
+        "key": "newArrivals",
+        "__v": 0,
+        "createdAt": "2025-12-29T04:05:49.128Z",
+        "data": {
+          "image": "https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80",
+          "title": "New Arrivals",
+          "subtitle": "Discover our latest additions to the MANSARA family."
+        },
+        "updatedAt": "2025-12-30T16:00:51.944Z"
+      },
+      {
+        "_id": "6951fe1dd40f612d54e08c17",
+        "key": "offers",
+        "__v": 0,
+        "createdAt": "2025-12-29T04:05:49.129Z",
+        "data": {
+          "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80",
+          "title": "Special Offers",
+          "subtitle": "Grab these amazing deals on your favorite MANSARA products."
+        },
+        "updatedAt": "2025-12-30T16:00:51.948Z"
+      },
+      {
+        "_id": "6951fe1dd40f612d54e08c18",
+        "key": "homeSettings",
+        "__v": 0,
+        "createdAt": "2025-12-29T04:05:49.131Z",
+        "data": {
+          "interval": 5000
+        },
+        "updatedAt": "2025-12-30T16:00:51.951Z"
+      }
+    ]
+  }
+}

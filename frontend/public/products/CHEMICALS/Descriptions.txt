@@ -1,0 +1,116 @@
+1.	Magnesium Sulphate
+"Magnesium Sulphate in a clear container, with grains of white powder visible. The background shows an agricultural setting with farm fields, emphasizing its use in fertilizers to enhance soil nutrients."
+
+2.	Aluminium Sulphate
+"A crystalline form of Aluminium Sulphate in a laboratory glass container. The background shows a water purification system with pipes and filtration equipment, highlighting its role in water treatment."
+
+3.	Potassium Chloride
+"A small jar of Potassium Chloride granules on a lab bench. In the background, show a fertilizer production plant, emphasizing its use in fertilizers and food processing."
+
+4.	Copper Sulphate
+"A container of Copper Sulphate powder on a laboratory counter, surrounded by chemical equipment. The background showcases its use in fungicides and industrial applications."
+
+5.	SLES (Sodium Lauryl Ether Sulfate)
+"A clear bottle of SLES liquid on a countertop, with bubbles rising around it. The background is a factory setting where detergents and shampoos are produced."
+
+6.	Lactic Acid
+"A clear bottle of Lactic Acid on a wooden countertop, with a few skincare products beside it. The background is a cosmetic laboratory or pharmaceutical setting, highlighting its use in skincare and food preservation."
+
+7.	DEC (Diethylene Glycol)
+"A bottle of Diethylene Glycol on a workbench in an industrial environment. The background suggests its use as a solvent in antifreeze and plasticizer production."
+
+8.	TERGITOL-NP-10-SURFACTANT
+"A clear bottle of TERGITOL-NP-10-SURFACTANT liquid on a laboratory table, with foam forming around it. The background shows an industrial setting for cleaning and surfactant applications."
+
+9.	MEG (Monoethylene Glycol)
+"A container of Monoethylene Glycol with a laboratory backdrop, emphasizing its use in antifreeze, coolants, and polyester production."
+
+10.	Trisodium Phosphate
+"A glass jar filled with Trisodium Phosphate on a clean workbench, surrounded by cleaning tools. The background suggests its use in degreasing and cleaning industrial processes."
+
+11.	Acid Violet
+"A vibrant jar of Acid Violet dye powder, surrounded by colorful fabrics. The background should evoke a textile or cosmetic production setting."
+
+12.	Glycerine Soap Base (Clear CC 620)
+"A clear glycerine soap base in a jar, displayed next to soap-making tools. The background shows a handmade soap-making workshop with custom soap bars."
+
+13.	Zinc Oxide
+"A bottle of Zinc Oxide powder with a small container of sunscreen next to it. The background is a cosmetic or pharmaceutical lab, highlighting its use in skincare and sunscreens."
+
+14.	Colored Speckles for Detergent
+"Small containers filled with colorful speckles, placed near detergent powders. The background features a laundry or cleaning product factory."
+
+15.	SLS Powder (Sodium Lauryl Sulfate)
+"A close-up of SLS powder in a container with bubbles rising from it. The setting is a lab where detergents and shampoos are being formulated."
+
+16.	AOS Powder (Alpha Olefin Sulfonate)
+"A jar of AOS Powder, displayed on a clean, white counter with various detergent products in the background."
+
+17.	AOS Liquid
+"A transparent bottle of AOS Liquid, with droplets forming around it. The background features a modern cleaning products manufacturing facility."
+
+18.	Sodium Sulfate
+"A container of Sodium Sulfate on a laboratory table, with a few detergent packets nearby. The background suggests its use in detergent manufacturing."
+
+19.	Calcium Carbonate
+"A pile of Calcium Carbonate powder on a wooden surface, with various construction materials in the background, emphasizing its use in building and paint products."
+
+20.	Sodium Hydroxide
+"A small bottle of Sodium Hydroxide on a metal countertop, with cleaning equipment in the background, showcasing its use in soap-making and industrial cleaning."
+
+21.	Hydrochloric Acid
+"A glass bottle of Hydrochloric Acid with chemical labeling. The background shows a chemical processing plant, with pipes and large vats in use."
+
+22.	Sulfuric Acid
+"A container of Sulfuric Acid on a lab bench, with an industrial factory background where fertilizers or batteries are being produced."
+
+23.	Sodium Carbonate
+"A clear container filled with Sodium Carbonate, surrounded by glassware in a chemical lab. The background shows industrial applications like glassmaking."
+
+24.	Ferric Chloride
+"A jar of Ferric Chloride on a clean counter with etched circuit boards next to it. The background is a modern electronics or water treatment facility."
+
+25.	Acetic Acid
+"A bottle of Acetic Acid with a few kitchen ingredients nearby. The background should suggest a food processing or industrial chemical setting."
+
+26.	Ethanol
+"A bottle of Ethanol on a lab bench, with laboratory glassware in the background, highlighting its use as a solvent and fuel additive."
+
+27.	Sodium Bicarbonate
+"A box of Sodium Bicarbonate (baking soda) next to a few kitchen cleaning tools. The background shows a kitchen with products using this ingredient."
+
+28.	Tri Sodium Phosphate
+"A container of Tri Sodium Phosphate next to a cleaning sponge. The background features an industrial cleaning environment."
+
+29.	Glycerine Soap Base
+"A clear block of glycerine soap base on a wooden surface, with soap-making tools nearby. The background suggests a home soap-making workshop."
+
+30.	DEG (Diethylene Glycol)
+"A bottle of Diethylene Glycol on a workbench, with various paints and inks in the background, showcasing its role as a solvent."
+
+31.	Salicylic Acid
+"A small container of Salicylic Acid powder beside skincare products. The background should evoke a skincare lab or pharmaceutical setting."
+
+32.	Acid Patent Blue
+"A bottle of Acid Patent Blue dye on a laboratory table, with vibrant blue fabric swatches beside it. The background suggests its use in textiles and food."
+
+33.	Wacker Silicone HS
+"A container of Wacker Silicone HS with a background featuring silicone sealants and adhesives being applied to building materials or electronics."
+
+34.	Phosphoric Acid 85%
+"A bottle of Phosphoric Acid 85%, surrounded by industrial processing equipment in a chemical manufacturing setting."
+
+35.	Light Liquid Paraffin (DIVYOL 12)
+"A small bottle of Light Liquid Paraffin on a pharmaceutical counter, surrounded by lotions and creams. The background evokes a cosmetic manufacturing lab."
+
+36.          Triton X-100
+"A bottle of Triton X-100, a clear liquid surfactant, placed on a laboratory bench. Surrounding it are beakers and glass containers filled with various chemical solutions. The background suggests its use in industrial cleaning and emulsions."
+
+37.Xylene
+"A container of Xylene, a clear, aromatic solvent, placed on a wooden counter. The background includes industrial and painting tools, showcasing its use as a solvent in paints, coatings, and chemical synthesis."
+
+38.Methyl Acetate
+"A clear bottle of Methyl Acetate, with its label prominently displayed. The background includes containers of various paints and adhesives, demonstrating its role as a fast-evaporating solvent used in coatings, adhesives, and inks."
+
+39.Sodium Hydro Sulphite
+"A jar of Sodium Hydro Sulphite on a clean workbench, with a few pieces of dyed fabric and textile tools nearby. The background hints at its use as a reducing agent in textile and dyeing industries, with dye vats and fabric rolls in the background."
