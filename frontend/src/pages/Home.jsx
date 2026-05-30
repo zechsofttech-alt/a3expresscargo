@@ -270,44 +270,44 @@ const Home = () => {
               />
 
               {/* Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-b from-slate-950/75 via-slate-950/60 to-slate-950/75 md:bg-none" />
+              <div className="absolute inset-0 bg-gradient-to-b from-slate-950/65 via-slate-950/50 to-slate-950/65 md:bg-none" />
               <div className="absolute inset-0 hidden md:block bg-gradient-to-r from-slate-950/85 via-slate-950/60 to-slate-950/20" />
 
               {/* Content — vertically centered */}
               <div className="absolute inset-0 flex items-center">
-                <div className="max-w-7xl mx-auto w-full px-5 sm:px-8 lg:px-12">
+                <div className="max-w-7xl mx-auto w-full px-6 lg:px-12">
                   <div
-                    className={`max-w-2xl mx-auto md:mx-0 text-center md:text-left transition-all duration-700 ${
+                    className={`max-w-2xl transition-all duration-700 ${
                       activeSlide === i
                         ? "opacity-100 translate-y-0"
                         : "opacity-0 translate-y-6"
                     }`}
                   >
-                    {/* Eyebrow */}
-                    <p className="text-blue-400 text-[10px] sm:text-xs font-semibold tracking-[0.2em] uppercase mb-3 md:mb-5">
+                    {/* Eyebrow — left aligned */}
+                    <p className="text-blue-400 text-xs font-semibold tracking-[0.2em] uppercase mb-4 md:mb-5">
                       — {slide.eyebrow}
                     </p>
 
-                    {/* Heading */}
-                    <h1 className="text-[2.4rem] xs:text-5xl sm:text-5xl md:text-7xl font-black text-white leading-[1.05] tracking-tight mb-3 md:mb-6">
+                    {/* Heading — large, left aligned */}
+                    <h1 className="text-5xl md:text-7xl font-black text-white leading-[1.05] tracking-tight mb-4 md:mb-6">
                       {slide.heading[0]}
                       <br />
                       <span className="text-blue-400">{slide.heading[1]}</span>
                     </h1>
 
-                    {/* Subtitle */}
-                    <p className="text-slate-200 text-sm sm:text-base md:text-lg leading-relaxed mb-6 md:mb-10 max-w-sm sm:max-w-xl mx-auto md:mx-0">
+                    {/* Subtitle — left aligned */}
+                    <p className="text-slate-200 text-base md:text-lg leading-relaxed mb-7 md:mb-10 max-w-xl">
                       {slide.sub}
                     </p>
 
-                    {/* Buttons — full-width on mobile, auto on md+ */}
-                    <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4 md:items-start">
+                    {/* Buttons — auto-width, stacked on mobile */}
+                    <div className="flex flex-col items-start gap-3 md:flex-row md:flex-wrap md:gap-4">
                       <button
                         onClick={(e) => {
                           e.stopPropagation();
                           scrollTo(productsRef);
                         }}
-                        className="flex items-center justify-center gap-2 w-full sm:w-auto px-7 py-3.5 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-full transition-all duration-200 hover:shadow-lg hover:shadow-blue-600/30"
+                        className="inline-flex items-center gap-2 px-7 py-4 md:py-3.5 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-full transition-all duration-200 hover:shadow-lg hover:shadow-blue-600/30"
                       >
                         Explore Products <ChevronRight className="w-4 h-4" />
                       </button>
@@ -316,7 +316,7 @@ const Home = () => {
                           e.stopPropagation();
                           navigate("/contact");
                         }}
-                        className="flex items-center justify-center gap-2 w-full sm:w-auto px-7 py-3.5 bg-slate-800/80 hover:bg-slate-700/80 backdrop-blur-sm text-white text-sm font-bold rounded-full border border-white/15 transition-all duration-200"
+                        className="inline-flex items-center gap-2 px-7 py-4 md:py-3.5 bg-slate-800/80 hover:bg-slate-700/80 backdrop-blur-sm text-white text-sm font-bold rounded-full border border-white/15 transition-all duration-200"
                       >
                         Get In Touch <ArrowRight className="w-4 h-4" />
                       </button>

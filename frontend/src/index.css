@@ -39,37 +39,28 @@ html {
   position: relative;
 }
 .carousel .control-dots {
-  bottom: 20px;
+  bottom: 28px;
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 6px;
-  padding: 0;
-  z-index: 10;
 }
 .carousel .control-dots .dot {
   background-color: #ffffff !important;
   opacity: 0.45;
-  width: 9px !important;
-  height: 9px !important;
+  width: 8px !important;
+  height: 8px !important;
   border-radius: 50% !important;
   box-shadow: none !important;
   margin: 0 !important;
   transition: all 0.3s ease;
-  cursor: pointer;
-  touch-action: manipulation;
 }
 .carousel .control-dots .dot.selected {
   background-color: #3b82f6 !important;
   opacity: 1;
-  width: 26px !important;
+  width: 24px !important;
   border-radius: 4px !important;
-}
-@media (min-width: 768px) {
-  .carousel .control-dots {
-    bottom: 28px;
-  }
 }
 .carousel .slide {
   transition: transform 0.5s ease !important;
