@@ -233,7 +233,7 @@ const Home = () => {
       {/* ══════════════════════════════════════════
           HERO — Full-viewport carousel
       ══════════════════════════════════════════ */}
-      <section className="relative w-full overflow-hidden" style={{ height: '100dvh', minHeight: '100svh' }}>
+      <section className="relative w-full overflow-hidden" style={{ height: '85vh', minHeight: '560px' }}>
         <Carousel
           showIndicators
           showStatus={false}
@@ -253,7 +253,7 @@ const Home = () => {
             <div
               key={i}
               className="relative w-full"
-              style={{ height: '100dvh', minHeight: '100svh' }}
+              style={{ height: '85vh', minHeight: '560px' }}
               onClick={() => navigate("/products")}
             >
               {/* Desktop Background Image */}
